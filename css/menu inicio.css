@@ -1,0 +1,92 @@
+body {
+    background-image: url(../img/descarga.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#idBanner {
+    animation: movimiento 2.5s linear infinite;
+}
+
+#idLogo{
+    width: 950px;
+    height: 500px;
+    padding: 1px 1px;
+    margin-left: 300px;
+    display: block;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#container1 {
+    background-color: rgb(94, 9, 117);
+    margin-top: 100px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    padding: 10px 20px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+#container1 a {
+    margin-left: 10px;
+}
+
+#idPlay img {
+    transition: 300ms;
+    position: relative;
+}
+
+#idPlay img:hover {
+    transform: scale(1.5);
+}
+
+#idMap img {
+    transition: 300ms;
+    position: relative;
+}
+
+#idMap img:hover {
+    transform: scale(1.5);
+}
+
+#idScore img {
+    transition: 300ms;
+    position: relative;
+}
+
+#idScore img:hover {
+    transform: scale(1.5);
+}
+
+#idSettings img {
+    transition: 300ms;
+    position: relative;
+}
+
+#idSettings img:hover {
+    transform: scale(1.5);
+}
+
+#idExit img {
+    transition: 300ms;
+    position: relative;
+}
+
+#idExit img:hover {
+    transform: scale(1.5);
+}

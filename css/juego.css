@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/space_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ui-game{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(94, 9, 117, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat .label {
+    font-family: "Honk", system-ui;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stat .shield{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-one{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 24, 241, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.player-two{
+    position: fixed;
+    top: 500px;
+    right: 10px;
+    background-color: rgba(241, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

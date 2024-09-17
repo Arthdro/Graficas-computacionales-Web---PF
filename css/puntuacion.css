@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/descarga4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container1 {
+    background-color: rgb(94, 9, 117);
+    margin-top: 100px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    padding: 10px 20px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+#idPuntuacion {
+    width: 450px;
+    height: 90px;
+    padding: 1px 1px;
+    margin-left: 5px;
+}
+
+#idBack img {
+    transition: 300ms;
+    margin-top: 90px;
+    position: relative;
+}
+
+#idBack img:hover {
+    transform: scale(1.5);
+}
+
+table {
+    font-family: "Sono", monospace;
+    color: white;
+    font-size: 20px;
+    table-layout: fixed;
+    margin-left: 75px;
+}
+
+thead {
+    background-color: rgb(43, 6, 78);
+}
+
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 2px rgb(30, 4, 30);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgb(215, 63, 215);
+}

@@ -1,0 +1,157 @@
+body {
+    background-image: url(../img/descarga3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container1 {
+    background-color: rgb(94, 9, 117);
+    margin-top: 80px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    padding: 10px 20px;
+    width: 700px;
+    height: 600px;
+    text-align: center;
+}
+
+#idP{
+    width: 400px;
+    height: 140px;
+    padding: 1px 1px;
+    margin-left: 5px;
+    /* display: block; */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin: 0 85px;
+    max-width: 500px;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: rgb(54, 4, 89);
+    box-shadow: 0 5px 10px black;
+}
+
+.wrapper #icon {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    text-align: center;
+}
+
+.wrapper input {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 10px;
+    appearance: none;
+    height: 18px;
+    border-radius: 25px;
+    background-color: #ededed;
+    box-shadow: 0 0 0 2px #ededed;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input::-webkit-slider-thumb {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #000000;
+    box-shadow: -208px 0 0 200px #000000;
+}
+
+.wrapper .slide-value {
+    font-size: 27px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 70px;
+    text-align: center;
+}
+
+#idBack img {
+    transition: 300ms;
+    margin-top: -40px;
+    position: relative;
+}
+
+#idBack img:hover {
+    transform: scale(1.5);
+}
+
+.subContainer1 {
+    width: 450px;
+    padding: 25px 40px 25px 25px;
+    border-radius: 15px;
+    margin-left: 100px;
+    color: white;
+    font-family: "Sono", monospace;
+}
+
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 24px;
+}
+
+.labelCheck {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.inputCheck {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+label span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+label span::after {
+    content: '';
+    position: absolute;
+    left: 24px;
+    bottom: 10px;
+    width: 0px;
+    height: 0px;
+    border: solid #00ff0a;
+    border-width: 0 6px 6px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
+}
+
+input:checked ~ span::after {
+    width: 20px;
+    height: 40px;
+    opacity: 1;
+}
+
+.pauseBtn {
+    height: auto;
+    color: #ffffff;
+    padding: 1.5%;
+}
